@@ -9,7 +9,7 @@ from machine import Pin, PWM
 # RECEIVER CONFIG
 # ===============================
 
-_REMOTE_NAME = "engg_200"                               # Your group name, i.e 'B1_A1' for Block 1, Group A1
+_REMOTE_NAME = "B2_C5"                               # Your group name, i.e 'B1_A1' for Block 1, Group A1
 _GENERIC_SERVICE_UUID = bluetooth.UUID(0x1848)      
 _JOYSTICK_CHARACTERISTIC_UUID = bluetooth.UUID(0x2A6E)
 

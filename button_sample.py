@@ -5,7 +5,8 @@ import time
 # HARDWARE SETUP
 # =====================
 button = Pin(13, Pin.IN, Pin.PULL_UP)
-
+led = Pin('LED', Pin.OUT)
+output = Pin(0, Pin.out)
 # =====================
 # TEST BUTTON
 # =====================
@@ -15,7 +16,13 @@ def test_button():
     
     # Check button state
     if button_val:
-        print("WAITING...")    
+        print("WAITING...")
+        led.on()
+        output.on()
+        time.sleep(5)
+        led.off()
+        output()
+        time.sleep(1)
     else:
         print("PRESS")
         
