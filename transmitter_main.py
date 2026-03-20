@@ -10,7 +10,7 @@ from machine import ADC, Pin
 # TRANSMITTER CONFIG
 # ===============================
 
-_DEVICE_NAME = "engg_200"                               # Your group name, i.e 'B1_A1' for Block 1, Group A1
+_DEVICE_NAME = "B2_C5"                               # Your group name, i.e 'B1_A1' for Block 1, Group A1
 _GENERIC_SERVICE_UUID = bluetooth.UUID(0x1848)          
 _JOYSTICK_CHARACTERISTIC_UUID = bluetooth.UUID(0x2A6E) 
 _ADV_INTERVAL_MS = 250_000
